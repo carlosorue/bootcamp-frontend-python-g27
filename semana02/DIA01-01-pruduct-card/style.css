@@ -26,7 +26,7 @@ main {
    /* border: 1px solid red;*/
 
     width: 650px;
-    height: 400px;
+    min-height: 400px;
     
     display: flex;
 
@@ -36,7 +36,7 @@ main {
 
 .photo{
     background-color: orange;
-    width: 300px;
+    width: 350px;
     background-image: url(./images/image-product-desktop.jpg);
     background-size: cover; /*cubre todo el espacio del elemento*/
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ main {
 .content{
     background-color: hsl(0, 0%, 100%);/*white*/
     
-    width: 350px;
+    width: 300px;
 
     padding: 28px ;
 
@@ -78,4 +78,40 @@ main {
     font-weight: 500px;
     line-height: 1.5;
     color: hsl(228, 12%, 48%);
+}
+
+.content div{
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.content span{
+    font-family: 'Fraunces', serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+
+}
+
+.content s{
+    color:hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+
+.content button{
+    border: 0;
+
+    font-family: inherit; /*hereda la fuente del elemento padre*/
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 12px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
 }
