@@ -35,7 +35,7 @@ main {
 }
 
 .photo{
-    background-color: orange;
+    background-color: pink;
     width: 350px;
     background-image: url(./images/image-product-desktop.jpg);
     background-size: cover; /*cubre todo el espacio del elemento*/
