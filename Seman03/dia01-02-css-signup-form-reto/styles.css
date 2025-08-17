@@ -1,0 +1,82 @@
+h1 {
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+
+    font-family: Roboto, sans-serif;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100dvh;
+}
+
+main{
+    width: 650px;
+    min-height: 400px;
+
+    display: flex;
+
+    border-radius: 14px;
+    overflow: hidden;
+}
+.ilustration-signup{
+    width: 300px;
+    background-image: url(assets/images/illustration-sign-up-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+label{
+    display: block;
+    margin-bottom: 16px;
+}
+
+label input[type=email] {
+    display: flex;
+    font: inherit;
+    margin-top: 8px;
+    padding: 6px 86px;
+    
+        
+}
+    
+
+
+
+.lista-iconos{
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-iconos li {
+    display: flex;
+    align-items: center;    
+    margin: 8px 0;
+}
+
+.lista-iconos li img {
+  margin-right: 10px; 
+  width: 20px;        
+  height: 20px;
+}
+
+.content button {
+    border: 0;
+    font-family: inherit;
+    background-color: hsl(234, 29%, 20%);
+    color:hsl(0, 0%, 100%);
+    padding: 12px 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+}
